@@ -1,0 +1,16 @@
+button{
+    background-color: whitesmoke;
+    border: none;
+    margin-right: 15px;
+}
+.loc{
+    height: 30px;
+    width: 30px;
+}
+#local{
+    background-color: whitesmoke;
+    text-align: center;
+}
+button:enabled{
+    border: none;
+}

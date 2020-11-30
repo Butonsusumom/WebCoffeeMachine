@@ -1,0 +1,22 @@
+html{
+    margin: 0;
+    background-color: grey;
+}
+body{
+    background-color: whitesmoke;
+    margin: 12% 0 0 0;
+}
+fieldset{
+    margin: 0;
+    text-align: center;
+    border: none;
+    font-size: 19px;
+}
+input{
+    background: linear-gradient(#00BF00, #008F00);
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    min-width: 200px;
+    min-height: 40px;
+}

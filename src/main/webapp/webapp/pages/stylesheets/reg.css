@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+}
+
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+fieldset {
+    border-bottom-width: medium;
+    border: none;
+    width: 100%;
+    margin: 1% 0 0 0;
+    padding: 0;
+}
+
+label {
+    width: 170px;
+    font-size: 14px;
+    display: inline-table;
+    padding: 10px;
+    margin: 5px;
+}
+
+.registrationFormButtons {
+    padding: 7px 15px;
+    margin-left: 15%;
+    background: linear-gradient(#00BF00, #008F00);
+    color: white;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    min-width: 110px;
+}
+
+.txt {
+    width: 50%;
+}
+
+.txt:focus {
+    border-color: greenyellow;
+}
+
+p {
+    font-size: 12px;
+    margin: 2px 0 2px 15%;
+}
+
+span {
+    font-size: 12px;
+    color: red;
+}

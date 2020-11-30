@@ -1,0 +1,13 @@
+<Context>
+    <Resource name="jdbc/coffee_machine"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="1000"
+              username="root"
+              password="152758"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/coffee_machine?useUnicode=true&amp;characterEncoding=utf8"/>
+</Context>
+
