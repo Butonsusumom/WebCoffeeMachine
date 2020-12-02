@@ -1,0 +1,32 @@
+html {
+    background-color: grey;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+fieldset {
+    margin: 15% 0 0 0;
+    padding: 20px;
+    width: 100%;
+    background-color: whitesmoke;
+    border: none;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+}
+
+#backToMenu {
+    margin-top: 20px;
+    color: white;
+    background: linear-gradient(#00BF00, #008F00);
+    font-size: 14px;
+    border-radius: 25px;
+    height: 40px;
+}
