@@ -32,10 +32,10 @@
         .content {
             /*height: 50%;*/
             padding: 40px 50px 10px 50px;
-            background-color: #c19c82;
+            background: linear-gradient(#000000,#434343);
         }
         .c{
-            background-color: #ffffcc;
+            background-color: white;
         }
 
     </style>
@@ -48,7 +48,7 @@
 <!-- Navbar -->
 
 
-<form class="content" action="coffee_machine" method="post">
+<form class="content" action="coffee_machine" method="post" style="background: transparent">
 
     <c:if test="${empty drinkList}">
         <h1><fmt:message key="menu.empty_menu"/></h1>

@@ -7,7 +7,7 @@ import java.io.IOException;
 
 @SuppressWarnings("serial")
 public class CopyrightTag extends TagSupport {
-    private static final String COPYRIGHT_TEXT = "Copyright \u00a9 2020 Online Coffee Machine";
+    private static final String COPYRIGHT_TEXT = "Copyright \u00a9 2020 Tsybulko Ksenia";
 
     @Override
     public int doStartTag() throws JspException {

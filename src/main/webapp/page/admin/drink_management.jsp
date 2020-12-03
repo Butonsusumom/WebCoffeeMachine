@@ -32,7 +32,7 @@
         .view {
             height: 50%;
             /*top: 150px;*/
-            background-color: #c19c82;
+            background: linear-gradient(#000000,#434343);
         }
 
         @media (min-width: 800px) and (max-width: 850px) {
@@ -58,10 +58,10 @@
 
         .form-active {
             padding: 60px 50px 15px 50px;
-            background-color: #c19c82;
+            background-color: black;
         }
         .card-body {
-            background-color: #c19c82;
+            background-color: black;
         }
 
     </style>
@@ -122,9 +122,6 @@
 
 
 <%--</div>--%>
-<footer>
-    <ctg:copyrightTag/>
-</footer>
 </body>
 
 </html>

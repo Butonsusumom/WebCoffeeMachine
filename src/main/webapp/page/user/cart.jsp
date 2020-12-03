@@ -32,7 +32,7 @@
         .view {
             height: 100%;
             /*top: 150px;*/
-            background-color: #c19c82;
+            background-color: black;
         }
 
         @media (min-width: 800px) and (max-width: 850px) {
@@ -68,14 +68,14 @@
 <%@include file="../jspheader/nav.jsp" %>
 <!-- Navbar -->
 
-<h1><fmt:message key="cart.cart"/></h1>
+<!--<h1><fmt:message key="cart.cart"/></h1>
 <c:if test="${not empty errorMessage}">
     <div class="text-center text-warning">
         <h2 class="text">
             <fmt:message key="${errorMessage}"/>
         </h2>
     </div>
-</c:if>
+</c:if>-->
 
 <section class="view card white wow fadeIn" id="intro">
     <table class="table">

@@ -76,7 +76,7 @@
 
     </c:if>
 </div>
-<footer>
+<footer font="Georgia" style="font-weight:bold;background-color:black;">
     <ctg:copyrightTag/>
 </footer>
 </body>

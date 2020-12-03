@@ -165,8 +165,5 @@
 
 <!-- SCRIPTS -->
 
-<footer>
-    <ctg:copyrightTag/>
-</footer>
 </body>
 </html>

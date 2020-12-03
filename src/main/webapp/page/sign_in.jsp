@@ -33,7 +33,7 @@
         header,
         .view {
             height: 100%;
-            background-image: url(${pageContext.request.contextPath}/img/reg_back.jpg);
+            background-image: url(${pageContext.request.contextPath}/img/machine.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -64,7 +64,7 @@
     <!-- Content -->
     <div class="card-body text-white  py-5 px-5 my-5">
 
-        <form class="form-act brown" action="coffee_machine" method="post">
+        <form class="form-act black" action="coffee_machine" method="post">
             <c:if test="${not empty errorMessage}">
             <div class="text-center text-warning">
                 <label class="text">
@@ -91,7 +91,7 @@
     </div>
     <!-- Content -->
 </section>
-<footer>
+<footer font="Georgia" style="font-weight:bold;background-color:black;">
     <ctg:copyrightTag/>
 </footer>
 </body>

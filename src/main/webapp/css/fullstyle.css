@@ -1,6 +1,6 @@
 footer {
     display: block;
     text-align: center;
-    background-color: #3c2a1e;
+    background: linear-gradient(#000000,#434343);
     color: white;
 }

@@ -32,7 +32,7 @@
         .view {
             height: 100%;
             /*top: 150px;*/
-            background-color: #c19c82;
+            background-color: black;
         }
 
         @media (min-width: 800px) and (max-width: 850px) {

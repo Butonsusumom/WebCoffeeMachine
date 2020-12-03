@@ -68,7 +68,7 @@
 
 
     <video class="video-intro" autoplay loop muted>
-        <source src="${pageContext.request.contextPath}/img/coffee_back.mp4" type="video/mp4"/>
+        <source src="${pageContext.request.contextPath}/img/Coffee.mp4" type="video/mp4"/>
     </video>
 
 
@@ -148,7 +148,7 @@
 <%--</div>--%>
 
 <%--<!--/.Footer-->--%>
-<footer>
+<footer font="Georgia" style="font-weight:bold;background-color:black;">
     <ctg:copyrightTag/>
 </footer>
 

@@ -32,7 +32,7 @@
         header,
         .view {
             height: 100%;
-            background-image: url(${pageContext.request.contextPath}/img/reg_back.jpg);
+            background-image: url(${pageContext.request.contextPath}/img/machine.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -84,7 +84,7 @@
     <div class="card-body text-white  py-5 px-5 my-5">
 
 
-        <form class="brown form-active" action="coffee_machine" method="post">
+        <form class="black form-active" action="coffee_machine" method="post">
             <c:if test="${not empty errorMessage}">
                 <div class="text-center text-warning">
                     <label class="text">
@@ -99,9 +99,6 @@
             <div class="form-group">
                 <label for="inputEmail"><fmt:message key="registration.email"/></label>
                 <input type="email" class="form-control" id="inputEmail" name="userEmail" aria-describedby="emailHelp" required>
-                <small id="emailHelp" class="form-text  text-white">
-                    <fmt:message key="registration.email_help"/>
-                </small>
             </div>
             <div class="form-group">
                 <label for="inputPassword"><fmt:message key="registration.password"/></label>
@@ -115,7 +112,7 @@
     </div>
     <!-- Content -->
 </section>
-<footer>
+<footer font="Georgia" style="font-weight:bold;background-color:black;">
     <ctg:copyrightTag/>
 </footer>
 </body>
