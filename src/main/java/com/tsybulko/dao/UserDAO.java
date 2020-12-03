@@ -1,44 +1,76 @@
 package com.tsybulko.dao;
 
-import com.tsybulko.entity.users.User;
-
-import java.math.BigDecimal;
-import java.sql.Connection;
+import com.tsybulko.entity.User;
+import com.tsybulko.exception.DAOException;
 
 /**
- * DAO for operations with User objects
+ * User dao interface.
  */
-
 public interface UserDAO {
+    /**
+     * Find user by email and password.
+     *
+     * @param user entity with email and password
+     * @return finding user
+     * @throws DAOException dao exception.
+     */
+    User findByEmailAndPassword(User user) throws DAOException;
 
     /**
-     * @param user - User object to write to the database
-     * @param connection - Connection object for connecting to database
-     * @return - true if user added successfully
+     * Find user by email.
+     *
+     * @param user entity with email
+     * @return finding user
+     * @throws DAOException dao exception.
      */
-
-    boolean addUser(User user, Connection connection);
+    User findByEmail(User user) throws DAOException;
 
     /**
-     * @param user - User object to write to the database
-     * @param connection - Connection object for connecting to database
-     * @return - true if the dependency machine has person added successfully
+     * Find user by id.
+     *
+     * @param user entity with id
+     * @return finding user
+     * @throws DAOException dao exception.
      */
-
-    boolean addMachineHasUser(User user, Connection connection);
+    User findById(User user) throws DAOException;
 
     /**
-     * @param login - The login of the User
-     * @return - Object of User from database
+     * Update user info by id.
+     *
+     * @param user entity with id
+     * @throws DAOException dao exception.
      */
-
-    User getUserByLogin(String login);
+    void updateUserInfoById(User user) throws DAOException;
 
     /**
-     * @param balance - The amount which the account is replenished
-     * @param login - The login of the user
-     * @return - Returns true if balance updated successfully
+     * Add new card to user by id.
+     *
+     * @param user entity with id
+     * @throws DAOException dao exception.
      */
+    void attachCardToUserById(User user) throws DAOException;
 
-    boolean updateBalance(BigDecimal balance, String login);
+    /**
+     * Update user card info by id.
+     *
+     * @param user entity with id
+     * @throws DAOException dao exception.
+     */
+    void updateCardInfoById(User user) throws DAOException;
+
+    /**
+     * Update user card amount info by id.
+     *
+     * @param user entity with id
+     * @throws DAOException dao exception.
+     */
+    void updateCardAmountById(User user) throws DAOException;
+
+    /**
+     * Delete user card by id.
+     *
+     * @param user entity with id and card
+     * @throws DAOException dao exception.
+     */
+    void deleteCardFromUserById(User user) throws DAOException;
 }
