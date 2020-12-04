@@ -59,7 +59,7 @@
 <body>
 <%@include file="jspheader/nav.jsp" %>
 
-<section class="view card brown wow fadeIn" id="intro">
+<section class="view card black wow fadeIn" id="intro">
 
     <!-- Content -->
     <div class="card-body text-white  py-5 px-5 my-5">
@@ -72,7 +72,7 @@
                 </label>
             </div>
             </c:if>
-            <form class="brown" action="coffee_machine" method="post">
+            <form class="black" action="coffee_machine" method="post">
                 <div class="form-group">
                     <label for="inputEmail"><fmt:message key="sign_in.email"/></label>
                     <input type="email" class="form-control" id="inputEmail" name="userEmail"
