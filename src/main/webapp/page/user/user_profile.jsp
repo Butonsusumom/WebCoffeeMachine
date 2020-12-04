@@ -26,12 +26,12 @@
     <link href="css/profile_style.css" rel="stylesheet" type="text/css">
     <link href="css/fullstyle.css" rel="stylesheet">
 </head>
-<body>
+<body style="background:linear-gradient(#000000,#434343)">
 <!-- Navbar -->
 <%@include file="../jspheader/nav.jsp" %>
 <!-- Navbar -->
 
-<div class="shift">
+<div class="shift" >
     <div class="container emp-profile">
         <form action="coffee_machine" method="get">
             <div class="row">

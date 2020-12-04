@@ -32,7 +32,7 @@
         header,
         .view {
             height: 100%;
-            background-image: url(${pageContext.request.contextPath}/img/machine.jpg);
+            background-image: url(/img/machine.jpg);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -78,13 +78,13 @@
 <body>
 <%@include file="../jspheader/nav.jsp" %>
 
-<section class="view card brown wow fadeIn" id="intro">
+<section class="view card black wow fadeIn" id="intro">
 
     <!-- Content -->
     <div class="card-body text-white  py-5 px-5 my-5">
 
 
-        <form class="brown form-active" action="coffee_machine" method="post">
+        <form class="black form-active" action="coffee_machine" method="post">
             <c:if test="${not empty errorMessage}">
                 <div class="text-center text-warning">
                     <label class="text">

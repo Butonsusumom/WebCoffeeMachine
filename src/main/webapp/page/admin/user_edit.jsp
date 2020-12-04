@@ -27,15 +27,18 @@
     <link href="css/fullstyle.css" rel="stylesheet">
     <style type="text/css">
         /* Necessary for full page carousel*/
-        html,
-        body,
-        header {
+        body
+        .view {
+            height: 50%;
+            /*top: 150px;*/
+            background: linear-gradient(#000000,#434343);
         }
+
 
         .form-act {
             width: 60%;
             margin: 60px auto;
-            /*background: ;*/
+            background: white
             padding: 60px 120px 80px 120px;
             /*text-align: center;*/
             -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
@@ -45,11 +48,11 @@
     </style>
 
 </head>
-<body>
+<body >
 <!-- Navbar -->
 <%@include file="../jspheader/nav.jsp" %>
 <!-- Navbar -->
-<div class ="form-act">
+<div class =" form-act">
     <h5><fmt:message key="user_edit.name"/>: ${userProfile.name}</h5>
     <h5><fmt:message key="user_edit.email"/>: ${userProfile.email}</h5>
     <c:if test="${userProfile.activity.equals(true)}">
@@ -76,8 +79,5 @@
 
     </c:if>
 </div>
-<footer font="Georgia" style="font-weight:bold;background-color:black;">
-    <ctg:copyrightTag/>
-</footer>
 </body>
 </html>

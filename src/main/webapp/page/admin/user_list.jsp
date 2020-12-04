@@ -32,7 +32,7 @@
         .view {
             height: 100%;
             /*top: 150px;*/
-            background-color: black;
+            background: linear-gradient(#000000,#434343);
         }
 
         @media (min-width: 800px) and (max-width: 850px) {

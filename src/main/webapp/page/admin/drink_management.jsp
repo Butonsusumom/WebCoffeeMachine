@@ -26,9 +26,9 @@
     <link href="css/fullstyle.css" rel="stylesheet">
     <style type="text/css">
         /* Necessary for full page carousel*/
-        html,
+
         body,
-        header,
+        header
         .view {
             height: 50%;
             /*top: 150px;*/
@@ -67,7 +67,7 @@
     </style>
 </head>
 
-<body>
+<body >
 
 <!-- Navbar -->
 <%@include file="../jspheader/nav.jsp" %>
@@ -86,7 +86,7 @@
 </div>
 <div class="form-table">
     <div>
-        <table class="table">
+        <table class="table" style="background: transparent">
             <thead class="thead ">
             <tr>
                 <th scope="col"><fmt:message key="drink_management.drink_title"/></th>

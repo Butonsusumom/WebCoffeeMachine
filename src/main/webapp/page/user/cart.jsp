@@ -28,7 +28,7 @@
         /* Necessary for full page carousel*/
         html,
         body,
-        header,
+        header
         .view {
             height: 100%;
             /*top: 150px;*/
