@@ -104,7 +104,7 @@
                     <td>${drink.price}</td>
                     <td>${drink.servingNumber}</td>
                     <td>
-                        <form action="coffee_machine" method="get">
+                        <form action="coffee_machine" method="get" style="background: transparent">
                             <input type="hidden" name="drinkId" value="${drink.id}"/>
                             <button type="submit" class="btn" name="command" value="ADD_SERVINGS_PAGE">
                                 <fmt:message key="drink_management.add_servings"/>
