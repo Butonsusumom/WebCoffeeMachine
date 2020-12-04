@@ -5,19 +5,21 @@
 купить один или несколько Напитков. Администратор Кофе-машины осуществляет ее
 наполнение. 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+## Несколько страниц из проекта:
+
+![alt text](https://github.com/Butonsusumom/WebCoffeeMachine/blob/master/src/main/webapp/img/MainPage.JPG)
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Butonsusumom/WebCoffeeMachine/blob/master/src/main/webapp/img/Menu.JPG)
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Butonsusumom/WebCoffeeMachine/blob/master/src/main/webapp/img/User.JPG)
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Butonsusumom/WebCoffeeMachine/blob/master/src/main/webapp/img/AddDrint.JPG)
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Butonsusumom/WebCoffeeMachine/blob/master/src/main/webapp/img/Auth.JPG)
 
 
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](https://github.com/Butonsusumom/WebCoffeeMachine/blob/master/src/main/webapp/img/Cart.JPG)
